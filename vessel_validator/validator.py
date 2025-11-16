@@ -20,7 +20,7 @@ from typing import Dict, List, Optional, Any, Literal
 from dataclasses import dataclass, field
 
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "Scitus Solutions Ltd."
 __license__ = "MIT"
 

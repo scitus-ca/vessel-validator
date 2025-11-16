@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "vessel-validator"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
     {name = "Scitus Solutions Ltd.", email = "info@scitus.ca"}
 ]
@@ -17,7 +17,6 @@ requires-python = ">=3.8"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
@@ -54,3 +53,6 @@ Changelog = "https://github.com/scitus-ca/vessel-validator/blob/main/CHANGELOG.m
 where = ["."]
 include = ["vessel_validator*"]
 exclude = ["tests*", "examples*", "docs*"]
+
+[tool.setuptools.package-data]
+vessel_validator = ["py.typed"]
